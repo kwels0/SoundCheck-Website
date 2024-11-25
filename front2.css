@@ -13,6 +13,23 @@ body {
 }
 
 
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.8s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .Ribbons {
     display: flex;
     -webkit-box-align: center;
@@ -69,10 +86,10 @@ body {
 }
 
 .bar a:hover {
-    background-color: #C4DFAA;
+    background-color: #000000;
     color: white;
     color: inherit;
-    padding: 0px 5px;
+    padding: 6px 9px;
     border-radius: 10%;
     transition: 0.4s;
 }
@@ -269,6 +286,7 @@ body {
     height: 100vh;
 }
 
+
 .under2 {
     flex: 1 1 0%;
     place-self: stretch;
@@ -351,6 +369,7 @@ body {
 }
 
 .tiletxt {
+    margin: auto;
     display: flex;
     flex-direction: column;
     margin-top: 0rem;
@@ -385,7 +404,7 @@ body {
 .opener {
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 64%;
     transform: translate(-50%, -50%);
     padding: 10px;
     border-radius: 5px;
@@ -394,7 +413,7 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     background: #ffffff;
-    border-radius: 9px;
+    border-radius: 10px;
 }
 
 .op {
