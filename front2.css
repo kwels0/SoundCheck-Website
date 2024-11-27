@@ -323,6 +323,16 @@ body {
     font-weight: bolder;
 }
 
+.name1v {
+    font: xx-large;
+}
+
+.name1v, .under1v {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
 .projtile {
     display: block;
     width: 100%;
