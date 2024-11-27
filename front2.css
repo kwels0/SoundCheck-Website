@@ -50,11 +50,11 @@ body {
     text-align: center;
 }
 
-.griddy:hover .image {
+.projtile:hover .image {
     opacity: 0.3;
 }
 
-.griddy:hover .middle {
+.projtile:hover .middle {
     opacity: 1;
 }
 
