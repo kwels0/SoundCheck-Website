@@ -59,7 +59,15 @@ opacity: 1;
 }
 
 .text {
-
+    white-space: nowrap;
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+    background: #ffffff;
+    color: black;
+    border-radius: 7px;
+    font-weight: bold;
+    width: 50%;
+    font-size: 100%;
 } 
 
 .Ribbons {
