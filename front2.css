@@ -30,6 +30,11 @@ body {
 	}
 }
 
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
 .imagehover {
     opacity: 1;
     display: block;
