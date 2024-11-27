@@ -33,29 +33,28 @@ body {
 .container {
     position: relative;
     width: 50%;
-  }
-  
+}
+
 .imagehover {
     opacity: 1;
     display: block;
     width: 100%;
     height: auto;
-    transition: .5s ease;
+    transition: 0.5s ease;
     backface-visibility: hidden;
-  }
-  
+}
+
 .middle {
-    transition: .5s ease;
+    transition: 0.5s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
 
-.projtile:hover .image {
+.projtile:hover .imagehover {
     opacity: 0.3;
 }
 
@@ -65,15 +64,21 @@ body {
 
 .text {
     white-space: nowrap;
-    padding-inline-start: 0%;
-    padding-inline-end: 0%;
     background: #ffffff;
     color: black;
     border-radius: 7px;
     font-weight: bold;
-    width: 50%;
-    font-size: 100%;
-} 
+    font-size: 1rem;
+    padding: 10px;
+    width: fit-content;
+}
+
+.griddy {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
 
 .Ribbons {
     display: flex;
