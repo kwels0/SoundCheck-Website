@@ -38,7 +38,7 @@ body {
 .imagehover {
     opacity: 1;
     display: block;
-    width: 200%;
+    width: 100%;
     height: auto;
     transition: 0.5s ease;
     backface-visibility: hidden;
@@ -75,7 +75,7 @@ body {
 
 .griddy {
     display: grid;
-    grid-gap: 1.25rem;
+    grid-gap: 23rem;
     grid-template-columns: repeat(3, 1fr); 
 }
 
@@ -605,17 +605,6 @@ nav a {
     font-weight: bold;
 }
 
-ol {
-    white-space: nowrap;
-    padding-inline-start: 0%;
-    padding-inline-end: 0%;
-    background: #B6E2A1;
-    color: black;
-    border-radius: 7px;
-    font-weight: bold;
-    width: 30%;
-    font-size: 100%;
-}
 
 hr {
     width: 50%;

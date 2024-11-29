@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <link rel="stylesheet" href="front1.css">
     <link rel="stylesheet" href="front2.css">
+    <link rel="stylesheet" href="pns.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
@@ -36,37 +37,133 @@
 <div class="openingSpacing"></div>  
     <div class="prog" id="proj">
         <center><h3 class="heads6">Products and Services</h3></center> <br><br>
-        <div class="projtile">
-            <div class="griddy">
-                <div class="tile1">
-                    <div class="tiller1">
-                        <img src="https://imgur.com/flQ3HAd.png" class="idv">
-                    </div>
-                    <div class="tiletxt">
-                        <h2 class="ttxt">Services</h2>
-                        <p class="ttxt">holder
-                    </div>
-                </div>
-                <div class="tile1">
-                    <div class="tiller1">
-                        <img src="https://imgur.com/flQ3HAd.png" class="idv">
-                    </div>
-                    <div class="tiletxt">
-                        <h2 class="ttxt">Services</h2>
-                        <p class="ttxt">holder
-                    </div>
-                </div>
-                <div class="tile1">
-                    <div class="tiller1">
-                        <img src="https://imgur.com/flQ3HAd.png" class="idv">
-                    </div>
-                    <div class="tiletxt">
-                        <h2 class="ttxt">Services</h2>
-                        <p class="ttxt">holder
-                    </div>
-                </div>
-        </div>
     </div>
+
+<div class="container">
+    <section class="info-section">
+        <div class="text">
+        <h2>Rehearsal Rooms</h2>
+        <ul>
+            <li><b>Standard Room:</b> Perfect for solo artists or duos.</li>
+            <li><b>Band Room:</b> Spacious enough for full bands <br>with premium acoustics.</li>
+            <li><b>Recording & Production Studio:</b> For artists ready to take their <br>music to the next level.</li>
+        </ul>
+        </div>
+        <img src="https://imgur.com/aRDhnEV.png" class="image-placeholder" >
+    </section>
+
+    <section class="info-section">
+        <div class="text">
+        <h2>Gear Rental</h2>
+        <h4>Drums, amplifiers, keyboards, microphones, and more.</h4>
+        <h3>Add-Ons:</h3>
+        <ul>
+            <li>Sound technician services.</li>
+            <li>Snacks and beverages to fuel long sessions.</li>
+        </ul>
+        </div>
+        <img src="https://imgur.com/bTJPDah.png" class="image-placeholder" >
+    </section>
+
+    <section class="info-section">
+        <div class="text">
+        <h2>Prices:</h2>
+        <ul>
+            <li><b>Standard Room:</b> 350/hour</li>
+            <li><b>Gear Rental:</b> $10/item per session</li>
+        </ul>
+        <h3>How to Avail Products / Services:</h3>
+        <ol>
+            <li>Visit our website or call us at (555) 123-4567.</li>
+            <li>Check room availability via our online booking system.</li>
+            <li>Reserve your slot and confirm payment.</li>
+        </ol>
+        </div>
+        <img src="https://imgur.com/ocqX29u.png" class="image-placeholder" >
+    </section>
+    </div>
+
+
+<div class="form-container">
+    <h1>BOOK A SESSION.</h1>
+    <p>Fill out the form below and wait for our confirmation e-mail to complete your booking.</p>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="firstName">Name (required)</label>
+        <div class="inline-fields">
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email (required)</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label>Are all the members fully vaccinated? (required)</label>
+        <div class="radio-group">
+          <input type="radio" id="vaccinatedYes" name="vaccinationStatus" value="Yes" required>
+          <label for="vaccinatedYes">Yes</label>
+          <input type="radio" id="vaccinatedNo" name="vaccinationStatus" value="No" required>
+          <label for="vaccinatedNo">No</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Service: (required)</label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="rehearsal" name="service" value="Rehearsal">
+          <label for="rehearsal">Rehearsal</label>
+          <input type="checkbox" id="recording" name="service" value="Recording">
+          <label for="recording">Recording</label>
+          <input type="checkbox" id="mixing" name="service" value="Mixing">
+          <label for="mixing">Mixing</label>
+          <input type="checkbox" id="mastering" name="service" value="Mastering">
+          <label for="mastering">Mastering</label>
+          <input type="checkbox" id="songProduction" name="service" value="Song Production">
+          <label for="songProduction">Song Production</label>
+          <input type="checkbox" id="musicArrangement" name="service" value="Music Arrangement">
+          <label for="musicArrangement">Music Arrangement</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+
+      <div class="form-group">
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+
+      <div class="form-group">
+        <label for="mobileNumber">Mobile Number (required)</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Enter your mobile number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="members">Members (required)</label>
+        <textarea id="members" name="members" rows="2" placeholder="Please list down the names of members." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="transport">Method of Transport (required)</label>
+        <textarea id="transport" name="transport" rows="2" placeholder="Indicate if you're commuting or using a private vehicle. Parking is limited to 3 vehicles." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="comments">Questions / Comments</label>
+        <textarea id="comments" name="comments" rows="3" placeholder="Enter any additional questions or comments here."></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+
 <div class="ball">
     <div class="under2"></div>            
     <div class="under3"></div> 
