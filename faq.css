@@ -1,52 +1,74 @@
-.faq-section {
-    margin: 50px 0;
+.body {
+    background-color: #000000;
+    font-family: 'Poppins';font-size: 22px;
 }
-
-.faq-title {
-    font-size: 24px;
-    font-weight: bold;
+ 
+ 
+ .faq-container {
+  text-align: center;
+  width: 900%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  /* Title styles */
+  .faq-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .faq-container p {
+    font-size: 0.9em;
     margin-bottom: 20px;
-}
-
-.faq-product-info {
-    background-color: #0f0e0e;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.faq-product-info-title {
-    font-weight: bold;
-}
-
-.faq-list {
-    list-style: none;
-    padding: 0;
-}
-
-.faq-item {
-    margin-bottom: 20px;
-}
-
-.faq-question {
-    background-color: #2d2d2d;
-    border: none;
-    padding: 10px;
+    color: #ccc; 
+  }
+  
+  /* Individual FAQ items */
+  .faq-item {
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     cursor: pointer;
-    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+
+  .faq-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .faq-question span:first-child {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  .plus-icon {
+    font-size: 1.2em;
     font-weight: bold;
-}
-
-.faq-answer {
+    color: #ffffff;
+    transition: color 0.2s ease;
+  }
+  
+  .faq-item:hover .plus-icon {
+    color: #000;
+  }
+  .faq-answer {
     display: none;
-    padding: 10px;
-    background-color: #f7f7f7;
-}
-
-.faq-question:hover {
-    background-color: #E0E0E0;
-}
-
-.faq-question.active,
-.faq-answer.active {
-    background-color: #E0E0E0;
-}
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #ffffff;
+  }
+  .faq-item.open .faq-answer {
+    display: block;
+  }
+  .faq-item.open .plus-icon {
+    transform: rotate(45deg);
+  }
+  

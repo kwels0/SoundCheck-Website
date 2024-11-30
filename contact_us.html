@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <link rel="stylesheet" href="front1.css">
     <link rel="stylesheet" href="front2.css">
+    <link rel="stylesheet" href="pns.css">
+    <link rel="stylesheet" href="ct.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
@@ -37,30 +39,96 @@
     <div class="content" id="contact">
         <center>
             <font color="white" size="5">
-            <h3 class="heads5">Contact Us</h3>
-            <h3 style="font-size: small;">Contact us ;;ballbalbabalb;; </h3>
+            <h3 class="name1" style="font-size: 70px;">Contact Us</h3>
             </font>
         </center>
-        <div class="cont1">
-            <div class="cont2">
-                <div class="cont3">
-                    <div class="griddsep">
-                        <img src="https://cdn-icons-png.flaticon.com/128/2111/2111370.png" class="smallimg">
-                        <a href="" class="heads8" target="_blank">Number</a>
-                    </div>
-                    <div class="griddsep">
-                        <img src="https://cdn-icons-png.flaticon.com/128/174/174848.png" class="smallimg">
-                        <a href="" class="heads8" target="_blank">Facebook</a>
-                    </div>
-                    <div class="griddsep">
-                        <img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" class="smallimg">
-                        <a href="" class="heads8" target="_blank">Location</a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
+<div class="contact-container">
+    <div class="contact-item">
+        <div class="icon-placeholder"></div>
+        <p>FACEBOOK</p>
+        <p>SoundCheck <br>2600</p>
+    </div>
+    <div class="contact-item">
+        <div class="icon-placeholder"></div>
+        <p>NUMBER</p>
+        <p>0977 407 6089</p>
+    </div>
+    <div class="contact-item">
+        <div class="icon-placeholder"></div>
+        <p>LOCATION</p>
+        <p>Unit 5-5, 5th Floor, <br>Abanao <br> Shopping Complex, <br>Baguio City, <br>Philippines</p>
+    </div>
+</div>
+<div class="form-container">
+    <h1>BOOK A SESSION.</h1>
+    <p style="color: aliceblue;">Fill out the form below and wait for our confirmation e-mail to complete your booking.</p>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="firstName" style="color: aliceblue;">Name (required)</label>
+        <div class="inline-fields">
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email" style="color: aliceblue;">Email (required)</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label style="color: aliceblue;">Service: (required)</label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="rehearsal" name="service" value="Rehearsal">
+          <label for="rehearsal" style="color: aliceblue;">Rehearsal</label>
+          <input type="checkbox" id="recording" name="service" value="Recording">
+          <label for="recording" style="color: aliceblue;">Recording</label>
+          <input type="checkbox" id="mixing" name="service" value="Mixing">
+          <label for="mixing" style="color: aliceblue;">Mixing</label>
+          <input type="checkbox" id="mastering" name="service" value="Mastering">
+          <label for="mastering" style="color: aliceblue;">Mastering</label>
+          <input type="checkbox" id="songProduction" name="service" value="Song Production">
+          <label for="songProduction" style="color: aliceblue;">Song Production</label>
+          <input type="checkbox" id="musicArrangement" name="service" value="Music Arrangement">
+          <label for="musicArrangement" style="color: aliceblue;">Music Arrangement</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="date" style="color: aliceblue;">Date</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+
+      <div class="form-group">
+        <label for="time" style="color: aliceblue;">Time</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+
+      <div class="form-group">
+        <label for="mobileNumber" style="color: aliceblue;">Mobile Number (required)</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Enter your mobile number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="members" style="color: aliceblue;">Members (required)</label>
+        <textarea id="members" name="members" rows="2" placeholder="Please list down the names of members." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="transport" style="color: aliceblue;">Method of Transport (optional)</label>
+        <textarea id="transport" name="transport" rows="2" placeholder="Indicate if you're commuting or using a private vehicle. Parking is limited to 3 vehicles." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="comments" style="color: aliceblue;">Questions / Comments</label>
+        <textarea id="comments" name="comments" rows="3" placeholder="Enter any additional questions or comments here."></textarea>
+      </div>
+
+      <button type="submit" style="color: aliceblue;">Submit</button>
+    </form>
+  </div>
 
   
 

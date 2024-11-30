@@ -1,11 +1,8 @@
-const faqQuestions = document.querySelectorAll('.faq-question');
+const faqItems = document.querySelectorAll('.faq-item');
 
-faqQuestions.forEach(question => {
-    question.addEventListener('click', () => {
-        const answer = question.nextElementSibling;   
+faqItems.forEach(item => {
+  item.addEventListener('click', () => {
 
-        question.classList.toggle('active');
-        answer.classList.toggle('active');   
-
-    });
+    item.classList.toggle('open');
+  });
 });

@@ -1,0 +1,40 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-item {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-item p {
+    margin: 0;
+    font-weight: bold;
+    color: #fefefe;
+    margin-left: auto;
+    margin-right: auto;
+}
